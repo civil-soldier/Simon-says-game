@@ -1,0 +1,109 @@
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-45deg, #1e3c72, #2a5298, #1e3c72, #2a5298);
+    background-size: 400% 400%;
+    animation: bgMove 15s ease infinite;
+}
+
+.developer-tag {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-family: 'Courier New', monospace;
+  background-color: #333;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  opacity: 0.8;
+  z-index: 100;
+}
+
+
+h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+h3{
+  font-size: 2rem;
+  margin-top: 30px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.btn{
+  width: 180px;
+  height: 180px;
+  margin: 20px;
+  border-radius: 20%;
+  border: 10px solid #000;
+  transition: transform 0.2s, box-shadow 0.3s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8) inset;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.purple{
+    background-color: #819ff9;
+}
+
+.flash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
+
+.signature {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffffb3;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  z-index: 100;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
